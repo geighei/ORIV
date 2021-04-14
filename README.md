@@ -1,5 +1,6 @@
 # ORIV
-Stata syntax files to perform simulation and empirical analyses for the "Stop meta-analyzing, start instrumenting" paper
+Stata syntax files to perform simulation and empirical analyses for the "Stop meta-analyzing, start instrumenting" paper, which can be found here:
+https://www.biorxiv.org/content/10.1101/2021.04.09.439157v1
 
 1. Simulation - Github version.do
 
