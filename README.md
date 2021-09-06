@@ -1,6 +1,6 @@
 # ORIV
 Stata syntax files to perform simulation and empirical analyses for the "Stop meta-analyzing, start instrumenting" paper, which can be found here:
-https://www.biorxiv.org/content/10.1101/2021.04.09.439157v1
+https://www.biorxiv.org/content/10.1101/2021.04.09.439157v1. The main replication files are in Stata syntax; please also find an R package to implement ORIV, which is contributed by Hyeokmoon Kweon, h.kweon@vu.nl. 
 
 1. Simulation - Github version.do
 
