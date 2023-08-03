@@ -8,6 +8,4 @@ These DO-files (with varying numbers X) use the simulated datasets generated in 
 
 2. UKB analysis Y scores - residualized.do
 
-These DO-files (with varying names Y) perform the empirical analyses in the sibling subsample of the UKB, used to construct Tables 2 and 3, and Figure 6 in the main text, and Supplementary Tables 10-12 in the Supplementary Information. 
-
-We are currently working on also releasing the syntax used to construct the UKB sample and the polygenic indices. This will be added later. 
+These DO-files (with varying names Y) perform the empirical analyses in the sibling subsample of the UKB, used to construct Tables 2 and 3, and Figure 6 in the main text, and Supplementary Tables 10-12 in the Supplementary Information. How the UKB data is constructed and the genetic data is processed can be found on https://github.com/DilnozaM/Rank-Concordance-of-PGI. 
