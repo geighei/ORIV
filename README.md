@@ -1,18 +1,13 @@
 # ORIV
-Stata syntax files to perform simulation and empirical analyses for the "Stop meta-analyzing, start instrumenting" paper, which can be found here:
-https://www.biorxiv.org/content/10.1101/2021.04.09.439157v1. The main replication files are in Stata syntax; please also find an R package to implement ORIV, which is contributed by Hyeokmoon Kweon, h.kweon@vu.nl. 
+Stata syntax files to perform simulation and empirical analyses for the "Overcoming attenuation bias in regressions using polygenic indices" paper, which can be found here:
+(https://www.nature.com/articles/s41467-023-40069-4). The main replication files are in Stata syntax; please also find an R package to implement ORIV, which is contributed by Hyeokmoon Kweon, h.kweon@vu.nl. 
 
-1. Simulation - Github version.do
+1. ORIV runs Design X.do
 
-This DO-file performs the simulations to create Figure 2 in the paper. 
-It generates 3 polygenic scores: 1 meta-analysis polygenic score, and 2 independent polygenic scores used in ORIV. For varying sample sizes and degrees of measurement error it computes the relative bias, Root Mean Squared Error, and empirical power for (i) an OLS regression of the outcome on the meta-analysis based score; and (ii) an ORIV regression where the two independent polygenic scores are used as instruments for each other. 
+These DO-files (with varying numbers X) use the simulated datasets generated in the GNAMES package (see https://github.com/devlaming/gnames) and perform the relevant analyses to create Figures 1-5 and Table 1 in the paper, and Supplementary Table 1-8 + Supplementary Figure 2 and 3 in the Supplementary Information.  
 
-Figures 3 and 5-8 are constructed in a very similar manner (changing a few parameters) and therefore the code is not reproduced here. It is of course, available upon request (hvankippersluis at ese.eur.nl). 
+2. UKB analysis Y scores - residualized.do
 
-2. ORIV UKB EA - Github version.do
+These DO-files (with varying names Y) perform the empirical analyses in the sibling subsample of the UKB, used to construct Tables 2 and 3, and Figure 6 in the main text, and Supplementary Tables 10-12 in the Supplementary Information. 
 
-This DO-file performs the empirical analysis in the sibling subsample of the UKB, used to construct Figure 2 (left panel) and Table 1. Again it compares a meta-analysis based score (UKB & 23andMe) for Educational Attainment (EA) to ORIV where we use two independent polygenic scores (two-sample UKB and 23andMe, or split-sample UKB). It applies meta-analysis based scores and ORIV both between families and within families. 
-
-Figure 2 (right panel) and Table 2 are constructed very similarly using height as the outcome and is therefore not reproduced here. The code is of course available upon request (hvankippersluis at ese.eur.nl). 
-
-We are currently working on also releasing the syntax used to construct the UKB sample and the polygenic scores. This will be added later. 
+We are currently working on also releasing the syntax used to construct the UKB sample and the polygenic indices. This will be added later. 
